@@ -1,0 +1,30 @@
+// Get films
+GET http://localhost:4321/api/films
+Content-Type: application/json
+
+// Add film
+POST http://localhost:4321/api/films
+Content-Type: application/json
+
+{
+    "title": "Poo poo",
+    "year": 2020,
+    "director" : "Mr poopy"
+}
+
+// Delete film
+DELETE http://localhost:4321/api/films
+Content-Type: application/json
+
+{
+    "id": "0a1b2c3d-4e5f-4a6b-8c9d-0f1e2d3c4b5a"
+}
+
+// Update film
+PUT http://localhost:4321/api/films
+Content-Type: application/json
+
+{
+    "title": "Interstellar",
+    "releaseYear": 10
+}
