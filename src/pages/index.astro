@@ -1,7 +1,6 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-import films from '../data/films.json';
 export const prerender = true;
 ---
 
@@ -29,14 +28,6 @@ export const prerender = true;
 		</div>
 	</section>
 	<section aria-label="Films" class="films">
-		<h2>Films</h2>
-		<ul>
-			{films.map((film) => (
-				<li>
-					<h3>{film.title}</h3>
-				</li>
-			))}
-		</ul>
 	</section>
 	<section aria-label="Team" class="team"></section>
 	<section aria-label="Contact" class="contact"></section>
