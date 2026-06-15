@@ -2,7 +2,6 @@
 import { defineConfig, fontProviders } from 'astro/config';
 
 export default defineConfig({
-  output: 'server',
   fonts: [{
     provider: fontProviders.local(),
     name: "Humane",
