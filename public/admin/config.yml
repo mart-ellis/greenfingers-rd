@@ -14,6 +14,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Year", name: "year", widget: "number" }
       - { label: "Synopsis", name: "synopsis", widget: "richtext" }
+      - { label: "Cast", name: "cast", widget: "markdown" }
       - { label: "Crew", name: "crew", widget: "markdown" }
       - { label: "Directors", name: "directors", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
